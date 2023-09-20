@@ -2,3 +2,154 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	font-family: arial
+}
+
+#header {
+	height: 64px;
+	width: 100%;
+	position: relative;
+	box-shadow: 0px 2px #ccc;
+}
+
+.nav-header {
+	display: flex;
+	position: absolute;
+	left: 56%;
+	line-height: 64px;
+	transform: translateX(-50%);
+
+}
+
+.nav-header .nav-section {
+	font-size: 20px;
+	padding: 0 20px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+}
+
+.nav-header .nav-section:hover {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.avatar-user {
+	display: flex;
+	position: absolute;
+	right: 50px;
+	line-height: 64px;
+	cursor: pointer;
+}
+
+.avatar-img {
+
+}
+
+.fa-shapes,
+.fa-bell,
+.fa-user {
+	font-size: 30px;
+	margin-top: 16px;
+}
+
+.fa-shapes {
+	margin-right: 30px;
+}
+
+.fa-bell {
+	margin-right: 30px;
+}
+
+.avatar-img:hover > .nav-avatar {
+	display: block;
+}
+
+.nav-avatar {
+	width: 119px;
+    position: absolute;
+    list-style-type: none;
+    display: none; 
+    right: -24px;
+    font-size: 15px;
+    border: 3px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.sub-nav-avatar {
+	/*display: inline-block;*/
+	border-bottom: 1px solid #ccc;
+}
+
+.sub-nav-avatar:hover > a {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.sub-nav-avatar:last-child {
+	/*display: inline-block;*/
+	border-bottom: none;
+
+}
+
+.sub-nav-avatar a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+.header-search {
+	display: flex;
+	position: absolute;
+	left: 15%;
+	line-height: 64px;
+	transform: translateX(-50%);
+}
+
+input {
+	padding: 10px 130px 10px 10px;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+.avatar-menu {
+
+}
+
+.avatar-menu:hover > .nav-menu {
+	display: block;
+}
+
+.nav-menu {
+	/*display: none;*/
+
+}
+
+.menu-line-1 {
+	position: absolute;
+	display: flex;
+    font-size: 15px;
+    border: 3px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 15px;
+    right: 80px;
+    width: 372px;
+
+}
+
+.sub-nav-menu {
+	padding: 0 20px;
+
+}
+
+.sub-nav-menu a{
+	text-decoration: none;
+	color: black;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 10px;
+}

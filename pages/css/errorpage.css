@@ -6,7 +6,7 @@
 html {
 	width: 100%;
 	height: 100%;
-	font-family: arial
+	font-family: arial;
 }
 
 .header {
@@ -44,5 +44,6 @@ html {
 
 .ans {
 	margin-top: 300px;
+	list-style-type: none;
 }
 

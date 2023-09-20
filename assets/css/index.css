@@ -7,6 +7,10 @@ html {
 	font-family: arial
 }
 
+-webkit-scrollbar {
+  display: none;
+}
+
 #header {
 	height: 64px;
 	width: 100%;
@@ -151,4 +155,90 @@ input {
 	border: 1px solid #ccc;
 	padding: 10px;
 	border-radius: 10px;
+}
+
+.avatar-notice {
+
+}
+
+.avatar-notice:hover > .nav-notice {
+	display: block;
+}
+
+.nav-notice {
+	display: none; 
+	height: 190px;
+    width: 380px;
+    position: absolute;
+    list-style-type: none;
+    right: 30px;
+    font-size: 15px;
+    border: 3px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.notice-desc {
+	position: absolute;
+}
+
+.notice-sec {
+	font-size: 20px;
+	margin-left: 30px
+}
+
+.notice-sec-desc {
+	margin-left: 15px;
+}
+
+.notice-line-1 {
+	display: none;
+}
+
+.notice-alert {
+
+}
+
+.notice-content {
+
+}
+
+.notice-details {
+
+}
+
+.notice-time {
+
+}
+
+.notice-alert,
+.notice-content,
+.notice-details,
+.notice-time {
+	max-height: 32px;
+}
+
+.not-have-account {
+	margin-left: 70px;
+}
+
+.have-account {
+	margin-left: 50px;
+}
+
+.have-account,
+.not-have-account {
+	border: 3px solid #ccc;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+.have-account:hover,
+.not-have-account:hover {
+	background: black;
+	color: white;
 }

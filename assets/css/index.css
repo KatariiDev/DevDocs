@@ -17,7 +17,7 @@ html {
 .nav-header {
 	display: flex;
 	position: absolute;
-	left: 56%;
+	left: 54%;
 	line-height: 64px;
 	transform: translateX(-50%);
 
@@ -125,7 +125,7 @@ input {
 }
 
 .nav-menu {
-	/*display: none;*/
+	display: none;
 
 }
 

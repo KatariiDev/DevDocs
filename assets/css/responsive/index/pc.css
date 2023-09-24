@@ -11,4 +11,12 @@
 		color: #000;
 		display: inline-block;
 	}
+
+	.nav-header {
+	    display: flex;
+	    position: absolute;
+	    left: 53%;
+	    line-height: 64px;
+	    transform: translateX(-50%);
+	}
 }

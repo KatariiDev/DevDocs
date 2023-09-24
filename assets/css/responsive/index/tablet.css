@@ -1,4 +1,4 @@
-@media (min-width: 740px) and (max-width: 1299px) {
+@media (min-width: 740px) and (max-width: 1326px) {
 	.header-bar-tablet {
 		display: block;
 	}
@@ -44,5 +44,13 @@
 		left: 15%;
 		line-height: 64px;
 		transform: translateX(-50%);
+	}
+
+	.nav-header {
+	    display: flex;
+	    position: absolute;
+	    left: 53%;
+	    line-height: 64px;
+	    transform: translateX(-50%);
 	}
 }

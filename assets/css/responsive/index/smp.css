@@ -1,0 +1,24 @@
+@media (max-width: 739px) {
+	.nav-header .nav-section {
+		font-size: 20px;
+		padding: 0 20px;
+		font-weight: 600;
+		text-decoration: none;
+		color: #000;
+		display: none;
+	}
+
+	input {
+	    padding: 10px 0px 10px 10px;
+	    border-radius: 10px;
+	    border-width: 1px;
+	}
+
+	.header-search {
+		display: flex;
+		position: absolute;
+		left: 22%;
+		line-height: 64px;
+		transform: translateX(-50%);
+	}
+}

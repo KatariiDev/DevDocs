@@ -1,0 +1,48 @@
+@media (min-width: 740px) and (max-width: 1326px) {
+	.header-bar-tablet {
+		display: block;
+	}
+
+	.nav-header .nav-section {
+		font-size: 20px;
+		padding: 0 20px;
+		font-weight: 600;
+		text-decoration: none;
+		color: #000;
+		display: none;
+	}
+
+	.rps {
+	    height: 43px;
+	    display: inline-block;
+	    padding: 0px 20px;
+	    border: 3px solid #ccc;
+	    border-radius: 15px;
+	    font-weight: 600;
+	    margin: 0 4px;
+	    text-decoration: none;
+	    color: black;
+	    line-height: 43px;
+	}
+
+	.content-header {
+	    display: block; 
+	    font-size: 30px;
+	    font-weight: 800;
+	    opacity: 0.5;
+	}
+
+	input {
+	    padding: 10px 0px 10px 10px;
+	    border-radius: 10px;
+	    border-width: 1px;
+	}
+
+	.header-search {
+		display: flex;
+		position: absolute;
+		left: 15%;
+		line-height: 64px;
+		transform: translateX(-50%);
+	}
+}

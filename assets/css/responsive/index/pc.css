@@ -1,0 +1,14 @@
+@media (min-width: 1327px) {
+	.header-bar-tablet {
+		display: none;
+	}
+
+	.nav-header .nav-section {
+		font-size: 20px;
+		padding: 0 20px;
+		font-weight: 600;
+		text-decoration: none;
+		color: #000;
+		display: inline-block;
+	}
+}

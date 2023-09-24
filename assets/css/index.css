@@ -265,7 +265,7 @@ input {
 	margin: 0 4px;
 	text-decoration: none;
 	color: black;
-	/*display: none;*/
+	display: none;
 }
 
 .content-header {
